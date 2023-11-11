@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+.topbar {
+    position: fixed;
+    top:0;
+    width:100%;
+    height: 100px;
+    background-color: #007bff;
+    display: flex;
+}
+.background-wrap {
+    background: linear-gradient(180deg, #FAFFC2 0%, rgba(254.58, 255, 249.69, 0) 100%);
+    width: 100%; height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    
+.content {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+    
+    .content span {
+      line-height: 30px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      color: black;
+      padding: 10px 10px 10px 10px;
+    }
+  
+    .content span:nth-child(1) {
+      font-weight: bold;
+      font-size: 23px;
+    }
+    
+    .content span:nth-child(2) {
+      padding-inline: 20%;
+      font-size: 15px;
+    }
+    
+    .container-wrapper {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3개의 열을 생성합니다. */
+        grid-gap: 10px; /* 열 간의 간격을 설정합니다. */
+        line-height: 100px; /* 수평 가운데 정렬을 위한 스타일 */
+        justify-content: center;
+        vertical-align: center;
+      }
+
+    .container {
+        width: 200px;
+        height: 300px;
+        background-color: #D7F1FF;
+        background: rgba(215, 241, 255, 0.62);
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+        margin: 10px;
+        text-align: center;
+        line-height: 100px; /* 수직 가운데 정렬을 위한 스타일 */
+        justify-content: center;
+    }
+
+    .container span {
+        font-size: 15px;
+    }

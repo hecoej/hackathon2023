@@ -13,8 +13,6 @@ html, body, button {
   background-color: #007bff;
   display: flex;
 }
-
-
 .background-wrap {
   background: linear-gradient(180deg, #FAFFC2 0%, rgba(254.58, 255, 249.69, 0) 100%);
   width: 100%; height: 606px;
