@@ -52,10 +52,10 @@ html, body {
         width: 1200px;
         margin-left: auto;
         margin-right: auto;
+        place-items: center;
         display: grid;
         grid-template-columns: repeat(3, 1fr); /* 3개의 열을 생성합니다. */
         grid-gap: 10px; /* 열 간의 간격을 설정합니다. */
-        line-height: 100px; /* 수평 가운데 정렬을 위한 스타일 */
         justify-content: center;
         vertical-align: center;
       }
@@ -66,12 +66,20 @@ html, body {
         background-color: #D7F1FF;
         background: rgba(215, 241, 255, 0.62);
         box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+        display: flex; /* Flexbox를 사용하여 내부의 요소들을 정렬합니다. */
+        align-items: center; /* 수직 가운데 정렬을 위한 스타일 */
+        justify-content: center; /* 수평 가운데 정렬을 위한 스타일 */
         margin: 10px;
         text-align: center;
-        line-height: 100px; /* 수직 가운데 정렬을 위한 스타일 */
-        justify-content: center;
+        transition: background-color 0.3s, color 0.3s; /* 전환 효과를 추가합니다. */
+        cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능함을 나타냅니다. */
     }
-
+    .container:hover {
+        content: "눌러서 공약보기";
+        background-color: #66a3ff; /* 호버 시 배경색 변경 */
+        color: #fff; /* 호버 시 글자색 변경 */
+    }
+    
     .container span {
         font-size: 15px;
     }

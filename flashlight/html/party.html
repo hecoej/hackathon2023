@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="party.css">
+    <script src="party.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;600;800" rel="stylesheet">    
@@ -25,41 +26,42 @@
     <div class="background-wrap">
       <div class="content">
         <span>후보별 공약</span>
-        <span>복잡한 후보별 정보는 NO!
+        <span>복잡한 후보별 정보는 NO!<br>
           객관적 프로필&공약으로 손쉽게 알아보아요!</span>
       </div>
     </div>
 
   <div class="container-wrapper">
-    <div class="container">
-      <span>A 후보</span>
-      <span>전과 1범</span>
-      <span>작가, 교수 출신</span>
+    <div class="container" onmouseover="changeContent1(this, true)" onmouseout="changeContent1(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>A 후보<br>
+        전과 1범<br>
+        작가, 교수 출신</span>
     </div>
-    <div class="container">
-      <span>B 후보
-        전과 2범
+
+    <div class="container" onmouseover="changeContent2(this, true)" onmouseout="changeContent2(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>B 후보<br>
+        전과 2범<br>
         변호사 출신</span>
     </div>
-    <div class="container">
-      <span>C 후보
-        전과 3범
-        음주운전 전과
+    <div class="container" onmouseover="changeContent3(this, true)" onmouseout="changeContent3(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>C 후보<br>
+        전과 3범<br>
+        음주운전 전과<br>
         변호사 출신</span>
     </div>
-    <div class="container">
-      <span>D 후보
-        전과 1범
+    <div class="container" onmouseover="changeContent4(this, true)" onmouseout="changeContent4(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>D 후보<br>
+        전과 1범<br>
         노동운동가 출신</span>
     </div>
-    <div class="container">
-      <span>E 후보
-        전과 없음
+    <div class="container" onmouseover="changeContent5(this, true)" onmouseout="changeContent5(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>E 후보<br>
+        전과 없음<br>
         검사 출신</span>
     </div>
-    <div class="container">
-      <span>F 후보
-        전과 3범
+    <div class="container" onmouseover="changeContent6(this, true)" onmouseout="changeContent6(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>F 후보<br>
+        전과 3범<br>
         법학과 출신</span>
     </div>
   </div>
