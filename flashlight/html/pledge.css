@@ -1,56 +1,736 @@
 html, body, button {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Gowun Batang', serif;
-    font-family: 'Noto Sans KR', sans-serif;
-  }
+  height: 0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gowun Batang', serif;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 5px;
+  position: fixed; /* 고정된 위치로 설정 */
+  width: 100%; /* 화면 전체 너비로 설정 */
+  top: 0; /* 화면 상단에 고정 */
+}
+
+#topMenu {
+  height: 50px;
+  width: 1000px;
+}
+
+#topMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+#logo img{
+  width: 170px;
+  height: 90px;
+  margin-left: 40px;
+}
+
+#topMenu ul li {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin: 0 10px;
+  flex: 1;
+}
+
+#topMenu .menuLink {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  display: block;
+  padding: 10px;
+}
+
+#topMenu .menuLink:hover {
+  color: red;
+  background-color: #ffffff;
+}
+
+#logo h1 {
+   font-family: 'Arial', sans-serif;
+   font-size: 20px;
+   margin: 0;
+   padding: 5px;
+   color: #000000;
+}
+
+.e5_23 { 
+  background-color:rgba(255, 255, 255, 1);
+  width:1440px;
+  height:1024px;
+  position:absolute;
   
-  .header-container {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between;
-    background-color: #ffffff;
-    padding: 5px;
-    position: fixed; /* 고정된 위치로 설정 */
-    width: 100%; /* 화면 전체 너비로 설정 */
-    top: 0; /* 화면 상단에 고정 */
-  }
+    z-index: -1;
+}
+.e104_5 { 
+  background-color:rgba(255, 255, 255, 0.20000000298023224);
+  width:1440px;
+  height:357px;
+  position:absolute;
+  left:0px;
+  top:180px;
+}
+.e104_13 { 
+  line-height: 20px;
+  color:rgba(0, 0, 0, 1);
+  width:396px;
+  height:67px;
+  position:absolute;
+  left:522px;
+  top:44px;
+  font-weight: bold;
+  text-align:center;
+  font-size:50px;
+  letter-spacing:0;
+}
+.e104_15 { 
+  color:rgba(0, 0, 0, 1);
+  width:545px;
+  height:139px;
+  position:absolute;
+  left:448px;
+  top:94px;
   
-  #topMenu {
-    height: 50px;
-    width: 1000px;
+  text-align:center;
+  font-size:25px;
+  letter-spacing:0;
+}
+.e104_111 { 
+  width:218px;
+  height:212px;
+  position:relative;
+  left:1079px;
+  top:716px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e106_119 { /*코로나19*/
+  border-radius:500px;
+  background-color:rgba(237.70249217748642, 215.68750709295273, 255, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+
+  left:42px;
+  top:42px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(237.70249217748642, 215.68750709295273, 255, 1); /* blur 효과 설정 */
+}
+.e104_111:hover .e106_119 {
+  width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+  height: 212px; 
+  left:0px;
+  top:0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
+ }
+ .e104_111:hover .e56_4, .e104_111:hover .e104_106 {
+/* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+   color:rgba(0, 0, 0, 0);
+  display: none;
+ }
+ .e104_111:hover .new1 {
+  /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+  display: block;
+  left:10px;
+  top:80px;
+  text-align:center;
   }
-  
-  #topMenu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
+
+.e56_4 { 
+  width:164px;
+  height:164px;
+  position:absolute;
+  left:54px;
+  top:19px;
+  background-image:url(src/biology.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_106 { 
+  color:rgba(0, 0, 0, 1);
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:141px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
+.new1 { 
+  color:#A858E7;
+  width:200px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+.new2 { 
+  color:#4D8BEA;
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+.new3 { 
+  color:#5AAAF4;
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+.new4 { 
+  color:#35B52B;
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+.new5 { 
+  color:#8ED718;
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+.new6 { 
+  color:#FF8039;
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+.new7 { 
+  color:#A76634;
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+.new8 { 
+  color:#FF347D;
+  width:140px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-weight: bold;
+  text-align:center;
+  font-size:40px;
+  letter-spacing:0;
+
+  display: none;
+}
+
+.e104_113:hover .e106_122 {
+  width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+  height: 212px; 
+  left:0px;
+  top:0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
+ }
+ .e104_113:hover .e104_2, .e104_113:hover .e104_104 {
+/* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+   color:rgba(0, 0, 0, 0);
+  display: none;
+ }
+ .e104_113:hover .new2 {
+  /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+  display: block;
+  left:40px;
+  top:80px;
+  text-align:center;
   }
-  #logo img{
-    width: 170px;
-    height: 90px;
-    margin-left: 40px;
+
+
+.e104_114:hover .e106_121 {
+  width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+  height: 212px; 
+  left:0px;
+  top:0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
+ }
+ .e104_114:hover .e104_4, .e104_114:hover .e104_103 {
+/* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+   color:rgba(0, 0, 0, 0);
+  display: none;
+ }
+ .e104_114:hover .new3{
+  /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+  display: block;
+  left:40px;
+  top:80px;
+  text-align:center;
+}
+
+
+.e104_107:hover .e104_115 {
+  width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+  height: 212px; 
+  left:0px;
+  top:0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
+ }
+ .e104_107:hover .e56_3, .e104_107:hover .e104_16 {
+/* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+   color:rgba(0, 0, 0, 0);
+  display: none;
+ }
+ .e104_107:hover .new4 {
+  /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+  display: block;
+  left:40px;
+  top:80px;
+  text-align:center;
   }
-  
-  #topMenu ul li {
-    color: rgb(0, 0, 0);
-    background-color: #ffffff;
-    margin: 0 10px;
-    flex: 1;
+
+
+.e104_112:hover .e106_118 {
+  width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+  height: 212px; 
+  left:0px;
+  top:0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
+ }
+ .e104_112:hover .e56_7, .e104_112:hover .e104_105 {
+/* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+   color:rgba(0, 0, 0, 0);
+  display: none;
+ }
+ .e104_112:hover .new5 {
+  /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+  display: block;
+  left:40px;
+  top:80px;
+  text-align:center;
   }
-  
-  #topMenu .menuLink {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    font-size: 15px;
-    display: block;
-    padding: 10px;
+
+
+  .e104_108:hover .e106_116 {
+     width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+     height: 212px; 
+     left:0px;
+     top:0px;
+     border: 0px solid rgba(0, 0, 0, 0);
+     box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
   }
-  
-  #topMenu .menuLink:hover {
-    color: red;
-    background-color: #ffffff;
+    .e104_108:hover .e56_5, .e104_108:hover .e104_100 {
+   /* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+      color:rgba(0, 0, 0, 0);
+     display: none;
   }
+  .e104_108:hover .new6 {
+     /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+     display: block;
+     left:40px;
+     top:80px;
+     text-align:center;
+  }
+
+  .e104_109:hover .e106_117 {
+  width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+  height: 212px; 
+  left:0px;
+  top:0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
+ }
+ .e104_109:hover .e56_6, .e104_109:hover .e104_101 {
+/* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+   color:rgba(0, 0, 0, 0);
+  display: none;
+ }
+ .e104_109:hover .new7 {
+  /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+  display: block;
+  left:40px;
+  top:80px;
+  text-align:center;
+  }
+
+  .e104_110:hover .e106_120 {
+  width: 212px; /* 마우스가 버튼 위로 올라갔을 때 크기 변경 */
+  height: 212px; 
+  left:0px;
+  top:0px;
+  border: 0px solid rgba(0, 0, 0, 0);
+  box-shadow: inset 2px 2px 3px 3px rgba(0, 0, 0, 0.271)
+ }
+ .e104_110:hover .e104_3, .e104_110:hover .e104_102 {
+/* 마우스가 버튼 위로 올라갔을 때 글씨 사라짐 */
+   color:rgba(0, 0, 0, 0);
+  display: none;
+ }
+ .e104_110:hover .new8 {
+  /* 마우스가 버튼 위로 올라갔을 때 글씨 보임 */
+  display: block;
+  left:40px;
+  top:80px;
+  text-align:center;
+  }
+
+.e104_113 { 
+  width:212px;
+  height:212px;
+  position:absolute;
+  left:1086px;
+  top:456px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e106_122 { 
+  border-radius:500px;
+  background-color:rgba(208.03754478693008, 226.82252079248428, 255, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  left:40px;
+  top:40px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(208.03754478693008, 226.82252079248428, 255, 1); /* blur 효과 설정 */
+}
+.e104_2 { 
+  width:164px;
+  height:164px;
+  position:absolute;
+  left:24px;
+  top:22px;
+  background-image:url(src/graduation.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_104 { 
+  color:rgba(0, 0, 0, 1);
+  width:93px;
+  height:68px;
+  position:absolute;
+  left:112px;
+  top:13px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e104_114 { 
+  width:212px;
+  height:212px;
+  position:absolute;
+  left:762px;
+  top:716px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e106_121 { 
+  border-radius:500px;
+  background-color:rgba(208.03754478693008, 232.45802879333496, 255, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  left:40px;
+  top:40px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(208.03754478693008, 226.82252079248428, 255, 1); /* blur 효과 설정 */
+}
+.e104_4 { 
+  width:164px;
+  height:164px;
+  position:absolute;
+  left:24px;
+  top:25px;
+  background-image:url(src/speech-bubble.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_103 { 
+  color:rgba(0, 0, 0, 1);
+  width:93px;
+  height:68px;
+  position:absolute;
+  left:114px;
+  top:144px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e104_107 { 
+  width:244px;
+  height:212px;
+  position:absolute;
+  left:746px;
+  top:456px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e104_115 { 
+  border-radius:500px;
+  background-color:rgba(216.44134104251862, 243.51171165704727, 214.08738255500793, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  left:40px;
+  top:40px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(216.44134104251862, 243.51171165704727, 214.08738255500793, 1); /* blur 효과 설정 */
+}
+.e56_3 { 
+  width:164px;
+  height:164px;
+  position:absolute;
+  left:0px;
+  top:19px;
+  background-image:url(src/insurance-agent.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_16 { 
+  color:rgba(0, 0, 0, 1);
+  width:93px;
+  height:68px;
+  position:absolute;
+  left:151px;
+  top:90px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e104_112 { 
+  width:229px;
+  height:212px;
+  position:absolute;
+  left:428px;
+  top:716px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e106_118 { 
+  border-radius:500px;
+  background-color:rgba(237.1542727947235, 255, 208.03754478693008, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  left:40px;
+  top:40px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(237.1542727947235, 255, 208.03754478693008, 1); /* blur 효과 설정 */
+}
+.e56_7 { 
+  width:164px;
+  height:164px;
+  position:absolute;
+  left:65px;
+  top:18px;
+  background-image:url(src/house-insurance.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_105 { 
+  color:rgba(0, 0, 0, 1);
+  width:93px;
+  height:68px;
+  position:absolute;
+  left:0px;
+  top:54px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e104_108 { 
+  width:220px;
+  height:212px;
+  position:absolute;
+  left:430px;
+  top:456px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e106_116 { 
+  border-radius:500px;
+  background-color:rgba(255, 251.76147937774658, 174.037546813488, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  left:40px;
+  top:40px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(255, 251.76147937774658, 174.037546813488, 1); /* blur 효과 설정 */
+}
+.e56_5 { 
+  width:164px;
+  height:164px;
+  position:absolute;
+  left:24px;
+  top:42px;
+  background-image:url(src/data-analysis.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_100 { 
+  color:rgba(0, 0, 0, 1);
+  width:93px;
+  height:68px;
+  position:absolute;
+  left:127px;
+  top:19px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e104_109 { 
+  width:212px;
+  height:212px;
+  position:absolute;
+  left:111px;
+  top:716px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e106_117 { 
+  border-radius:500px;
+  background-color:rgba(239.26171571016312, 215.5549094080925, 198.38784098625183, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  left:40px;
+  top:40px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(239.26171571016312, 215.5549094080925, 198.38784098625183, 1); /* blur 효과 설정 */
+}
+.e56_6 { 
+  width:164px;
+  height:155.84078979492188px;
+  position:absolute;
+  left:38px;
+  top:29px;
+  background-image:url(src/auction.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_101 { 
+  color:rgba(0, 0, 0, 1);
+  width:93px;
+  height:68px;
+  position:absolute;
+  left:7px;
+  top:133px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e104_110 { 
+  width:234px;
+  height:212px;
+  position:absolute;
+  left:100px;
+  top:456px;
+   background-color:transparent;
+  cursor: pointer; /* 커서 모양을 손가락으로 변경 */
+   border: none;
+}
+.e106_120 { 
+  border-radius:500px;
+  background-color:rgba(255, 208.03754478693008, 224.94402319192886, 1);
+  width:120px;
+  height:120px;
+  position:absolute;
+  left:40px;
+  top:40px;
+   border: 5px solid rgba(0, 0, 0, 0); /* 투명한 테두리 설정 */
+   box-shadow: 0 0 50px 50px rgba(255, 208.03754478693008, 224.94402319192886, 1); /* blur 효과 설정 */
+}
+.e104_3 { 
+  width:164px;
+  height:164px;
+  position:absolute;
+  left:3px;
+  top:23px;
+  background-image:url(src/counter.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e104_102 { 
+  color:rgba(0, 0, 0, 1);
+  width:93px;
+  height:68px;
+  position:absolute;
+  left:141px;
+  top:82px;
+  font-weight: bold;
+  text-align:center;
+  font-size:30px;
+  letter-spacing:0;
+}
