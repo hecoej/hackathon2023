@@ -8,6 +8,7 @@
 > 통합개발환경: 인텔리제이C<br/>
 > DB: mariadb<br/>
 <br/>
+
 ### 기술
 > 뷰 템플릿: thymeleaf<br/>
 > DB 접근: jpa<br/>
