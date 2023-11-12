@@ -1,0 +1,126 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 5px;
+    position: fixed; /* 고정된 위치로 설정 */
+    width: 100%; /* 화면 전체 너비로 설정 */
+    top: 0; /* 화면 상단에 고정 */
+}
+
+#topMenu {
+    height: 50px;
+    width: 1000px;
+}
+
+#topMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#logo img{
+    width: 170px;
+    height: 90px;
+    margin-left: 40px;
+}
+
+#topMenu ul li {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin: 0 10px;
+    flex: 1;
+}
+
+#topMenu .menuLink {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+}
+
+#topMenu .menuLink:hover {
+    color: red;
+    background-color: #ffffff;
+}
+.background-wrap {
+    background: linear-gradient(180deg, #FAFFC2 0%, rgba(254.58, 255, 249.69, 0) 100%);
+    width: 100%; height: 606px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.content span {
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+
+.content span:nth-child(1) {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.content span:nth-child(2) {
+    padding-inline: 20%;
+    font-size: 15px;
+}
+
+.container-wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3개의 열을 생성합니다. */
+    grid-gap: 10px; /* 열 간의 간격을 설정합니다. */
+    justify-content: center;
+    vertical-align: center;
+}
+
+.container {
+    width: 200px;
+    height: 300px;
+    background-color: #D7F1FF;
+    background: rgba(215, 241, 255, 0.62);
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+    display: flex; /* Flexbox를 사용하여 내부의 요소들을 정렬합니다. */
+    align-items: center; /* 수직 가운데 정렬을 위한 스타일 */
+    justify-content: center; /* 수평 가운데 정렬을 위한 스타일 */
+    margin: 10px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* 전환 효과를 추가합니다. */
+    cursor: pointer; /* 커서를 포인터로 변경하여 클릭 가능함을 나타냅니다. */
+}
+.container:hover {
+    content: "눌러서 공약보기";
+    background-color: #66a3ff; /* 호버 시 배경색 변경 */
+    color: #fff; /* 호버 시 글자색 변경 */
+}
+
+.container span {
+    font-size: 15px;
+}

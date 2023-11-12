@@ -1,0 +1,148 @@
+html, body, button {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gowun Batang', serif;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 5px;
+    position: fixed; /* 고정된 위치로 설정 */
+    width: 100%; /* 화면 전체 너비로 설정 */
+    top: 0; /* 화면 상단에 고정 */
+}
+
+#topMenu {
+    height: 50px;
+    width: 1000px;
+}
+
+#topMenu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#logo img{
+    width: 170px;
+    height: 90px;
+    margin-left: 40px;
+}
+
+#topMenu ul li {
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    margin: 0 10px;
+    flex: 1;
+}
+
+#topMenu .menuLink {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    display: block;
+    padding: 10px;
+}
+
+#topMenu .menuLink:hover {
+    color: red;
+    background-color: #ffffff;
+}
+#vote-image {
+    position: relative;
+    text-align: center;
+    width: 500px;
+    margin-top: 150px;
+}
+
+#Logo img {
+    width:130px;
+    height:100px;
+    left : 100px;
+    top:0px;
+    position : absolute;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#vote-image img {
+    width: 100%; /* 이미지가 부모 요소에 꽉 차도록 설정 */
+}
+
+#vote-image h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 196, 242);
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: center; /* 텍스트를 수평으로 가운데 정렬하는 속성 추가 */
+    line-height: 100px; /* 텍스트 박스의 높이와 동일한 값을 설정 */
+    margin-top: 0; /* 이미지와의 간격을 0으로 설정 */
+}
+
+#Logo img {
+    width:130px;
+    height:100px;
+    left : 100px;
+    top:0px;
+    position : absolute;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#vote-image img {
+    width: 100%; /* 이미지가 부모 요소에 꽉 차도록 설정 */
+}
+#h2 {
+}
+
+#vote-image h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(255, 196, 242);
+    width: 500px;
+    height: 100px;
+    align-items: center;
+    justify-content: center; /* 텍스트를 수평으로 가운데 정렬하는 속성 추가 */
+    line-height: 100px; /* 텍스트 박스의 높이와 동일한 값을 설정 */
+    margin-top: 0; /* 이미지와의 간격을 0으로 설정 */
+}
+
+#reference {
+    position: absolute;
+    right: 200px;
+    top: 300px; /* 오른쪽 상단에 배치하고 싶다면 top 속성을 조절 */
+}
+
+.start-button:hover {
+    background-color: rgb(214, 82, 186);
+}
+
+#reference {
+    position: absolute;
+    right: 200px;
+    top: 300px; /* 오른쪽 상단에 배치하고 싶다면 top 속성을 조절 */
+}
+
+.start-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(255, 196, 242);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none; /* 밑줄 없애기 */
+}
+
+.start-button:hover {
+    background-color: rgb(214, 82, 186);
+}

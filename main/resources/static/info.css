@@ -1,0 +1,319 @@
+html, body, button {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.header-container {
+  font-family: 'Noto Sans KR', sans-serif;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 5px;
+  position: fixed; /* 고정된 위치로 설정 */
+  width: 100%; /* 화면 전체 너비로 설정 */
+  top: 0; /* 화면 상단에 고정 */
+}
+
+#topMenu {
+  height: 50px;
+  width: 1000px;
+}
+
+#topMenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+#logo img{
+  width: 170px;
+  height: 90px;
+  margin-left: 40px;
+}
+#votingbox img{
+  width: 350px;
+  height:300px;
+  margin-top:300px;
+  margin-left:100px;
+}
+
+#topMenu ul li {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  margin: 0 10px;
+  flex: 1;
+}
+
+#topMenu .menuLink {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  display: block;
+  padding: 10px;
+}
+
+#topMenu .menuLink:hover {
+  color: red;
+  background-color: #ffffff;
+}
+
+
+.e111_158 {
+  background-image:linear-gradient(180deg, rgba(250.15500158071518, 255, 194.43749696016312, 1) 0%,rgba(254.57500040531158, 255, 249.6875050663948, 0) 100%) ;
+  width:1440px;
+  height:357px;
+  position:absolute;
+  left:0px;
+  top:180px;
+}
+.background-wrap {
+  background: linear-gradient(180deg, #FAFFC2 0%, rgba(254.58, 255, 249.69, 0) 100%);
+  width: 100%; height: 606px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.e111_159 {
+  color:rgba(0, 0, 0, 1);
+  width:396px;
+  height:67px;
+  position:absolute;
+  left:522px;
+  top:44px;
+  font-weight: bolder;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:center;
+  font-size:50px;
+  letter-spacing:0;
+}
+.e111_160 {
+  color:rgba(0, 0, 0, 1);
+  width:545px;
+  height:139px;
+  position:absolute;
+  left:448px;
+  top:130px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:center;
+  font-size:25px;
+  letter-spacing:0;
+}
+.e114_8 {
+  width:388px;
+  height:121px;
+  position:absolute;
+  left:95px;
+  top:400px;
+}
+.e111_162 {
+  color:rgba(0, 0, 0, 1);
+  width:363px;
+  height:121px;
+  position:absolute;
+  left:25px;
+  top:0px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:left;
+  font-size:40px;
+  letter-spacing:0;
+}
+.e111_164 {
+  background-color:rgba(0, 0, 0, 1);
+  width:6px;
+  height:42px;
+  position:absolute;
+  left:0px;
+  top:5px;
+}
+.e111_155 {
+  width:324px;
+  height:324px;
+  position:absolute;
+  left:169px;
+  top:578px;
+  background-image:url(images/voting_box_1.png);
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.e111_165 {
+  color:rgba(0, 0, 0, 1);
+  width:627px;
+  height:52px;
+  position:absolute;
+  left:609px;
+  top:526px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:left;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e114_7 {
+  width:627px;
+  height:359px;
+  position:absolute;
+  left:609px;
+  top:575px;
+}
+.e111_166 {
+  color:rgba(0, 0, 0, 1);
+  width:573.9100341796875px;
+  height:52px;
+  position:absolute;
+  left:0px;
+  top:0px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:left;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e111_168 {
+  color:rgba(0, 0, 0, 1);
+  width:300px;
+  height:52px;
+  position:absolute;
+  left:18.30653953552246px;
+  top:74px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:left;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e111_169 {
+  color:rgba(0, 0, 0, 1);
+  width:250px;
+  height:52px;
+  position:absolute;
+  left:370px;
+  top:74px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:right;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e111_167 {
+  border:1px solid rgba(0, 0, 0, 1);
+}
+.e111_167 {
+  width:619.6809692382812px;
+  height:0px;
+  position:absolute;
+  left:7.319040298461914px;
+  top:62.97772216796875px;
+}
+.e111_170 {
+  color:rgba(0, 0, 0, 1);
+  width:280px;
+  height:52px;
+  position:absolute;
+  left:18px;
+  top:148px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:left;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e111_171 {
+  color:rgba(0, 0, 0, 1);
+  width:280px;
+  height:52px;
+  position:absolute;
+  left:345.0782775878906px;
+  top:148px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:right;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e114_2 {
+  color:rgba(0, 0, 0, 1);
+  width:280px;
+  height:52px;
+  position:absolute;
+  left:345.0782775878906px;
+  top:222px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:right;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e111_172 {
+  border:1px solid rgba(0, 0, 0, 1);
+}
+.e111_172 {
+  width:619.6809692382812px;
+  height:0px;
+  position:absolute;
+  left:7.319040298461914px;
+  top:137px;
+}
+.e111_173 {
+  color:rgba(0, 0, 0, 1);
+  width:280px;
+  height:52px;
+  position:absolute;
+  left:18px;
+  top:222px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:left;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e111_174 {
+  border:1px solid rgba(0, 0, 0, 1);
+}
+.e111_174 {
+  width:619.6809692382812px;
+  height:0px;
+  position:absolute;
+  left:7.319040298461914px;
+  top:211px;
+}
+.e114_3 {
+  color:rgba(0, 0, 0, 1);
+  width:233.40838623046875px;
+  height:52px;
+  position:absolute;
+  left:18.30653953552246px;
+  top:296.02227783203125px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:left;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e114_4 {
+  color:rgba(0, 0, 0, 1);
+  width:273.6827697753906px;
+  height:52px;
+  position:absolute;
+  left:345.0782775878906px;
+  top:296px;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-align:right;
+  font-size:30px;
+  letter-spacing:0;
+}
+.e114_5 {
+  border:1px solid rgba(0, 0, 0, 1);
+}
+.e114_5 {
+  width:619.6809692382812px;
+  height:0px;
+  position:absolute;
+  left:7.319040298461914px;
+  top:285px;
+}
+.e114_6 {
+  border:1px solid rgba(0, 0, 0, 1);
+}
+.e114_6 {
+  width:619.6809692382812px;
+  height:0px;
+  position:absolute;
+  left:7.319040298461914px;
+  top:359px;
+}
+

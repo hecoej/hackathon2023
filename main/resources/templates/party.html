@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="party.css">
+    <script src="party.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&family=Noto+Sans+KR:wght@400;600;800" rel="stylesheet">    
+    <title>선거의 손전등 | 후보별 공약</title>
+</head>
+<div class="header-container">
+  <div id="logo">
+    <img src="src/logo.png" alt="Logo">
+  </div>
+  <nav id="topMenu">
+    <ul>
+      <li><a class="menuLink" href="/poti">정치티아이</a></li>
+      <li><a class="menuLink" href="/pledge">공약 정리</a></li>
+      <li><a class="menuLink" href="/party">후보별 공약</a></li>
+      <li><a class="menuLink" href="/info">선거정보</a></li>
+      <li><a class="menuLink" href="/roadmap">정치 로드맵</a></li>
+      <li><a class="menuLink" href="/polls">투표소 찾기</a></li>
+    </ul>
+  </nav>
+</div>
+
+    <div class="background-wrap">
+      <div class="content">
+        <span>후보별 공약</span>
+        <span>복잡한 후보별 정보는 NO!<br>
+          객관적 프로필&공약으로 손쉽게 알아보아요!</span>
+      </div>
+    </div>
+
+  <div class="container-wrapper">
+    <div class="container" onmouseover="changeContent1(this, true)" onmouseout="changeContent1(this, false)" onclick="location.href='party/party_1';">
+      <span>A 후보<br>
+        전과 1범<br>
+        작가, 교수 출신</span>
+    </div>
+
+    <div class="container" onmouseover="changeContent2(this, true)" onmouseout="changeContent2(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>B 후보<br>
+        전과 2범<br>
+        변호사 출신</span>
+    </div>
+    <div class="container" onmouseover="changeContent3(this, true)" onmouseout="changeContent3(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>C 후보<br>
+        전과 3범<br>
+        음주운전 전과<br>
+        변호사 출신</span>
+    </div>
+    <div class="container" onmouseover="changeContent4(this, true)" onmouseout="changeContent4(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>D 후보<br>
+        전과 1범<br>
+        노동운동가 출신</span>
+    </div>
+    <div class="container" onmouseover="changeContent5(this, true)" onmouseout="changeContent5(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>E 후보<br>
+        전과 없음<br>
+        검사 출신</span>
+    </div>
+    <div class="container" onmouseover="changeContent6(this, true)" onmouseout="changeContent6(this, false)" onclick="location.href='/flashlight/html/index.html';">
+      <span>F 후보<br>
+        전과 3범<br>
+        법학과 출신</span>
+    </div>
+  </div>
+</body>
