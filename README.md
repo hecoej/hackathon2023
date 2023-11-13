@@ -17,7 +17,7 @@ E타입 - 청년들의 정치 무관심 해결 및 잘못된 지표에 근거한
 > 1. 뷰 템플릿: thymeleaf<br/>
 > 2. DB 접근: jpa<br/>
 : 후보별 공약 페이지에서 블라인드 된 후보자를 선택하면 해당 후보자의 공약을 볼 수 있는데, jpa 레포지토리를 활용해서 DB에 접근하는 방식을 이용하여 후보자에 해당하는 공약이 출력되도록 구현하였다.<br/>
-![2-1](https://github.com/hecoej/hackathon2023/assets/113933238/714fdf68-a64c-42a1-9938-2c63bb45a267) <br/>
+![2-1](https://github.com/hecoej/hackathon2023/assets/113933238/08ec2c63-ee7a-4c62-bb9d-627b66298c8c) <br/>
 ![2-2](https://github.com/hecoej/hackathon2023/assets/113933238/0a0062a9-bbb5-4420-b7c5-0eb30f1d088d) <br/>
 모든 후보자의 공약이 있는 DB에서 원하는 후보자의 공약만을 필터링 하는 것은 구현하였으나, 같은 공약이 여러번 출력되는 오류를 해결하지 못하였다.<br/>
 ![2-3](https://github.com/hecoej/hackathon2023/assets/113933238/ed8a64fc-ccdb-4d71-8807-aa35d5038b60)
