@@ -18,20 +18,13 @@ E타입 - 청년들의 정치 무관심 해결 및 잘못된 지표에 근거한
 > **1. 뷰 템플릿: thymeleaf**<br/>
 > **2. DB 접근: jpa**<br/>
 : 후보별 공약 페이지에서 블라인드 된 후보자를 선택하면 해당 후보자의 공약을 볼 수 있는데, jpa 레포지토리를 활용해서 DB에 접근하는 방식을 이용하여 후보자에 해당하는 공약이 출력되도록 구현하였다.<br/>
-![2-1](https://github.com/hecoej/hackathon2023/assets/113933238/08ec2c63-ee7a-4c62-bb9d-627b66298c8c) <br/>
-![2-2](https://github.com/hecoej/hackathon2023/assets/113933238/0a0062a9-bbb5-4420-b7c5-0eb30f1d088d) <br/>
+<img src="https://github.com/hecoej/hackathon2023/assets/113933238/08ec2c63-ee7a-4c62-bb9d-627b66298c8c.png" width="500"/>
+<img src="https://github.com/hecoej/hackathon2023/assets/113933238/0a0062a9-bbb5-4420-b7c5-0eb30f1d088d.png" width="500"/> <br/>
 모든 후보자의 공약이 있는 DB에서 원하는 후보자의 공약만을 필터링 하는 것은 구현하였으나, 같은 공약이 여러번 출력되는 오류를 해결하지 못하였다.<br/>
-![2-3](https://github.com/hecoej/hackathon2023/assets/113933238/ed8a64fc-ccdb-4d71-8807-aa35d5038b60)
-<br/>
-> **3. 카카오맵 API: 선관위 위치 찾기**<br/>
-: 투표소 찾기 페이지에서 카카오에서 배포하는 카카오맵 API를 이용하여 지역별 선거관리위원회의 위치를 쉽게 찾을 수 있게 구현했다. </br>
- - 지역구 검색</br>
- - 해당 지역구의 선거관리위원회 데이터를 불러와 마커 표시</br>
-**안드로이드 카카오맵 API 개발자의 해시 키가 없을 경우 지도가 나타나지 않습니다.**
-</br>
-![3-1](https://github.com/hecoej/hackathon2023/assets/113933238/0520e748-bcf5-4d7e-8afb-3d372dca66d1) 
-</br>
-
+<img src="https://github.com/hecoej/hackathon2023/assets/113933238/ed8a64fc-ccdb-4d71-8807-aa35d5038b60.png" width="600"/> <br/>
+> **3. 카카오맵 API: 선관위 위치 찾기**<br/> : 투표소 찾기 페이지에서 카카오에서 배포하는 카카오맵 API를 이용하여 지역별 선거관리위원회의 위치를 쉽게 찾을 수 있게 구현했다. </br>
+> - 지역구 검색</br>
+> - 검색한 지역구의 선거관리위원회 데이터를 불러와 마커 표시</br> **!!안드로이드 카카오맵 API 개발자의 해시 키가 없을 경우 지도가 나타나지 않습니다!!** </br>
 
 ### 시연영상
 링크 : 
