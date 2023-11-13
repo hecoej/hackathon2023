@@ -27,6 +27,8 @@ E타입 - 청년들의 정치 무관심 해결 및 잘못된 지표에 근거한
 **3. 카카오맵 API : 선관위 위치 찾기**<br/> : <투표소 찾기 페이지> 카카오에서 배포하는 카카오맵 API를 이용하여 지역별 선거관리위원회의 위치를 쉽게 찾을 수 있게 구현했다. </br>
 - 지역구 검색
 - 검색한 지역구의 선거관리위원회 데이터를 불러와 마커 표시 </br> **!!안드로이드 카카오맵 API 개발자의 해시 키가 없을 경우 지도가 나타나지 않습니다!!** </br>
+<img width="960" alt="image" src="https://github.com/hecoej/hackathon2023/assets/124009718/de94070b-c3c3-443c-a7ae-b78ff1a9f431">
+
 
 ### 시연영상
 링크 : https://youtu.be/wDDSOV2ypPA?feature=shared
